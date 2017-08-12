@@ -1,0 +1,22 @@
+﻿已經開始建置於 2015/5/28 下午 11:48:09。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\acer\documents\visual studio 2010\Projects\FindThree\FindThree\FindThree.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\FindThree.unsuccessfulbuild"。
+       _MASM:
+         Assembling [Inputs]...
+         cmd.exe /C "C:\Users\acer\AppData\Local\Temp\tmpd8b92ca1c0b54a8e9d2f265c91723cba.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\main.obj" /Fl"mylistingfile" /I "C:\Irvine" /W3 /errorReport:prompt  /Tamain.asm
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\acer\documents\visual studio 2010\Projects\FindThree\Debug\FindThree.exe" /NOLOGO /LIBPATH:C:\Irvine Irvine32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\FindThree.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\acer\documents\visual studio 2010\Projects\FindThree\Debug\FindThree.pdb" /MAP /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\acer\documents\visual studio 2010\Projects\FindThree\Debug\FindThree.lib" /MACHINE:X86 Debug\main.obj
+         LINK : 最後的累加連結找不到或未建置 C:\Users\acer\documents\visual studio 2010\Projects\FindThree\Debug\FindThree.exe，正在執行完整連結
+         FindThree.vcxproj -> C:\Users\acer\documents\visual studio 2010\Projects\FindThree\Debug\FindThree.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\acer\documents\visual studio 2010\Projects\FindThree\Debug\FindThree.exe;#1" /manifest Debug\FindThree.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\FindThree.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\FindThree.lastbuildstate"。
+     1>專案 "C:\Users\acer\documents\visual studio 2010\Projects\FindThree\FindThree\FindThree.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:03.52
