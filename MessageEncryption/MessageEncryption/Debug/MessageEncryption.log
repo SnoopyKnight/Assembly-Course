@@ -1,0 +1,22 @@
+﻿已經開始建置於 2015/5/20 下午 10:46:23。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\acer\Documents\Visual Studio 2010\Projects\MessageEncryption\MessageEncryption\MessageEncryption.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\MessageEncryption.unsuccessfulbuild"。
+       _MASM:
+         Assembling [Inputs]...
+         cmd.exe /C "C:\Users\acer\AppData\Local\Temp\tmp87341c8cfce94e1ab438c86721470a8e.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\main.obj" /Fl"mylistingfile" /I "C:\Irvine" /W3 /errorReport:prompt  /Tamain.asm
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\acer\Documents\Visual Studio 2010\Projects\MessageEncryption\Debug\MessageEncryption.exe" /NOLOGO /LIBPATH:C:\Irvine Irvine32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MessageEncryption.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\acer\Documents\Visual Studio 2010\Projects\MessageEncryption\Debug\MessageEncryption.pdb" /MAP /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\acer\Documents\Visual Studio 2010\Projects\MessageEncryption\Debug\MessageEncryption.lib" /MACHINE:X86 Debug\main.obj
+         LINK : 最後的累加連結找不到或未建置 C:\Users\acer\Documents\Visual Studio 2010\Projects\MessageEncryption\Debug\MessageEncryption.exe，正在執行完整連結
+         MessageEncryption.vcxproj -> C:\Users\acer\Documents\Visual Studio 2010\Projects\MessageEncryption\Debug\MessageEncryption.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\acer\Documents\Visual Studio 2010\Projects\MessageEncryption\Debug\MessageEncryption.exe;#1" /manifest Debug\MessageEncryption.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\MessageEncryption.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\MessageEncryption.lastbuildstate"。
+     1>專案 "C:\Users\acer\Documents\Visual Studio 2010\Projects\MessageEncryption\MessageEncryption\MessageEncryption.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.70
